@@ -1,2 +1,3 @@
 Hello Git and GitHub
-This is a test message
+
+I'm setting this up to record thinkings on technical documentation.
