@@ -2,9 +2,7 @@ name: github pages
 
 on:
   push:
-    branches:
-      - main  # Set a branch to deploy
-  pull_request:
+    branches: [ master ] 
 
 jobs:
   deploy:
@@ -12,6 +10,7 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
