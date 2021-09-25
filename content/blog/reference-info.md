@@ -10,7 +10,7 @@ math: false
 toc: false
 ---
 
-Start little ...
+Start little ......
 
 ## Style
 
