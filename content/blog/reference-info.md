@@ -10,6 +10,8 @@ math: false
 toc: false
 ---
 
+Start little ...
+
 ## Style
 
 * [The Chicago Manual of Style](https://www.chicagomanualofstyle.org/home.html)
@@ -23,6 +25,8 @@ toc: false
 ## Blog
 
 * [I'd rather be writing](https://idratherbewriting.com/)
+
+* [Technical Writer](https://technicalwriterhq.com/)
 
 ## Content Marketing
 
