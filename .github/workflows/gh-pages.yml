@@ -3,7 +3,7 @@ name: github pages
 on:
   push:
     branches:
-    - main 
+    - master 
 
 jobs:
   deploy:
@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v2.5.0
         with:
           hugo-version: 'latest'
           extended: true
@@ -27,9 +27,9 @@ jobs:
         run: hugo --buildDrafts
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
+        uses: peaceiris/actions-gh-pages@v3.8.0
         with:
-          github_token: ${{ secrets.PERSONAL_TOKEN }}
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: azure562/azure562.github.io
+          publish_branch: master
           publish_dir: ./public
