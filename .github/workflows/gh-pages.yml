@@ -3,7 +3,7 @@ name: github pages
 on:
   push:
     branches:
-    - master 
+    - main 
 
 jobs:
   deploy:
@@ -33,4 +33,3 @@ jobs:
           github_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: azure562/azure562.github.io
           publish_dir: ./public
-          publish_branch: master
