@@ -4,13 +4,12 @@ date: 2021-09-18T20:01:11+02:00
 slug: ""
 description: ""
 keywords: []
-draft: true
 tags: []
 math: false
-toc: false
+toc: true
 ---
 
-first step
+I put some links here which I find useful, hopefully you also find so.
 
 ## Style
 
