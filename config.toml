@@ -13,7 +13,6 @@ copyright = "© {year}"
 # Add your Google Analytics identifier: UA-XXXXXXXX-X
 # googleAnalytics = "" 
 
-
 # Optional params
 [params]
   # Follow the Hugo date/time format reference here: 

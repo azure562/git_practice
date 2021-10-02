@@ -1,5 +1,5 @@
 ---
-title: "Leverage Google Analytics for better tech doc engagement"
+title: "Google Analytics for Tech Docs"
 date: 2021-10-01T19:24:22+02:00
 slug: ""
 description: ""
@@ -10,35 +10,100 @@ math: false
 toc: true
 ---
 
-# Google Analytics for Tech Documentation
+## Measure Online Tech Docs
 
-We hear Google Analytics a lot, and here are a few things about it:
+You might have heard about the [build-measure-learn feedback loop](http://theleanstartup.com/principles), a core component of the Lean Startup methodology. **Measure** is important to learn how customers/audiences respond to a product or service.
 
-* It is a platform for tracking web site performance
-* It uses a simple Javascript code to gather data
-* It puts a cookie in the browser to report user interactions
-* It is free
+But, how do you measure the performance of your tech docs? 📚
 
-There are tons of tutorials about Google Analytics, here is just one of them: [The Beginner's Definitive Guide to Google Analytics](https://www.semrush.com/blog/beginners-definitive-guide-to-google-analytics/)
+In this article, I'm sharing some learnings when using Google Analytics to understand readers' reaction to a tech docs web site.
 
-So, what does it do, to be more specific?
+### What is Google Analytics?
 
-What data does it collect?
+First thing first, Google Analytics:
+- is a platform for tracking web site performance
+- uses a simple Javascript code to gather data
+- puts a cookie in the browser to report user interactions
+- is free 🤗
 
-* How many visitors
-* From where
-* How much time they spend on your pages
-* How they interact with your pages
+There are tons of tutorials about Google Analytics, here is just one of them: [The Beginner's Definitive Guide to Google Analytics](https://www.semrush.com/blog/beginners-definitive-guide-to-google-analytics/).
 
-What kinds of hits it gives you?
+You can also follow the free online courses at [Google Analytics Academy](https://analytics.google.com/analytics/academy/) and earn certificates.
 
-* Pageview hits
-* Event hits
-* Transaction/Ecommerce hit (you might not need this one for tech documentation)
+### What can it do? 
 
-## Set it Up for Hugo
+Well, Google Analytics can do many things. For online tech docs, we are mainly interested in the folowing:
 
-Hugo has internal templates for Google Analytics tracking.
+* Where did the visitors come from? 🌐
+* How many visitors during a certain period? 🧑🏿‍🤝‍🧑🏻
+* How much time they spent on the pages? 👀
+* How they interacted with the individual pages? 🤸
+
+Answers to these questions are found in the **Audience** report and **Behavior** reports, using data collected through **Pageview hits** and **Event hits** (Transaction/Ecommerce hits usually do not apply to tech docs).
+
+Use this [Google Merchandise Store demo account](https://analytics.google.com/analytics/web/demoAccount?appstate=report%2Fvisitors-overview%2Fa54516992w87479473p92320289%2F%253F_u.date00%253D20150801%2526_u.date01%253D20150831%2F) to explore more.
+
+## Audience
+
+The *where did they come from* question is answered in the `Audience -> Geo -> Location` report.
+
+![location](/images/ga-demo-geo.PNG)
+
+## Behavior
+
+When a user landed on a page, a **pageview hit** is sent to Google Analytics.
+
+### All Pages
+
+To check out which pages are more popular and the average time a visitor spent on individual pages, we go to the `Behavior -> Site Content -> All Pages` report. 
+
+![pageview](/images/ga-demo-pageview.PNG)
+
+### Content DrillDown
+
+But what is more interesting is the `Behavior -> Site Content -> Content DrillDown` report. You can even view it as a pie chart.
+
+![content drilldown](/images/ga-demo-contentdrilldown.PNG)
+
+For a tech docs web site, there are usually several top-level doc entries. Content DrillDown report can give a clear idea about users' preference.
+
+### User Flow – Is there a common pattern?
+
+One question people are curious about is: can Google Analytics tell us whether the visitors follow a common pattern when visiting the doc web site? 🗺️ For example, which page is the most common landing page, which page does a visitor usually go next?
+
+For this purpose, we need to look at the **Behavior Flow** report.
+
+![Behavior flow](/images/ga-demo-behaviorflow.PNG)
+
+This information could be helpful when considering the information structure of the doc website.  
+
+## Event Hits – It’s about interaction
+
+The biggest puzzle for any author, including a tech author, is the reaction from the audience. Do they like what they see/read, or they hate it, or just indifferent?
+
+A simple trick to find it out is to place some emoijs (😀, 🙁, 😕) on your web pages, and send an event hit when a user clicks any of them. 
+
+For more details, refer to the official website of [Google Analytics](https://developers.google.com/analytics) and the section for developers, for example, [Sending Data to Google Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/sending-hits). 
+
+Of course, you may be curious to know if someone has more to say. Adding a Microsoft Office Form or Google Form could be an option.
+
+## Cookie Consent and GDPR
+
+Yes, Google Analytics uses cookie. With 🍪 there comes all the headache of privacy concern.
+
+If you are in a tech doc team of a company, you may want to contact the marketing department for a cookie consent management tool, and consult with your legal department for professional guidance 📜.
+
+Below are some links I find useful on this topic:
+
+* [Google Analytics Cookie Consent](https://consent.guide/google-analytics-cookie-consent/)
+* [Google Analytics Cookie Usage on Websites](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage)
+* [The Real Story on Cookies: Dispelling Common Myths About the GDPR and Consent](https://torquemag.io/2018/08/cookie-law-and-consent/)
+* [Hugo and the General Data Protection Regulation (GDPR)](https://gohugo.io/about/hugo-and-gdpr/)
+* [Turn "Do Not Track" on or off](https://support.google.com/chrome/answer/2790761?visit_id=637326372745325164-3057588087&p=settings_do_not_track&rd=1)
+
+## Set it Up in Hugo
+
+Hugo has [internal templates](https://gohugo.io/templates/internal#google-analytics) for Google Analytics tracking.
 
 Once the tracking code is added to the site config file, e.g., `Config.toml`, there is data ready for scrutinizing.
 
@@ -46,88 +111,5 @@ Once the tracking code is added to the site config file, e.g., `Config.toml`, th
 googleAnalytics = "UA-123456789-1"
 ```
 
-## Pageview Hits – It’s about view
-
-### Which pages, for how long?
-
-At the most basic level, there is always **Pageview Hit**.
-
-### User Flow – Is there a common pattern?
-
-No surprise that most of the time visitors land on the Homepage.
-
-Dive deeper - Full page report reveals more
-
-Top-level doc landing page
-
-There are usually several top-level doc entries on a doc website, which is the most popular? Checking individual top-level doc
-entries yields the relevant data.
-
-Does it mean some pages are just bad?
-
-Same function to be performed in different ways, thus in two docs.
-
-The REST API page obviously attracts more attention.
-
-On the other hand, it could mean the UI is intuitive enough thus not much need to check up docs.
-
-Another reason to avoid spending too much time documenting UI (provided your UI is good)!
-
-How we decided to go responsive
-
-When Google Analytics shows there were mobile phone visitors who stayed very briefly, we took it as a sign that the documentation portal needs to go responsive.
-
-The change was made by the end of March 2020. In July we had 6 Mobile phone readers, with 8 sessions in total, and on average they spent nearly 4 minutes browsing 10 pages per session.
-
-## Event Hits – It’s about interaction
-
-For more details, refer to the official website of [Google Analytics](https://developers.google.com/analytics) and the section for developers, for example, [Sending Data to Google Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/sending-hits).
-
-
-### What do you think about this page?
-
-The biggest puzzle for any author, even a tech author, is the reaction from the audience. Do they like a page, or they hate it?
-
-In February 2020, we added the three emoijs to documentation portal.
-
-In April we got an unhappy face for one page. Though the feedback was from internal, we decided to let our visitors speak up more…
-
-By the end of May 2020, we added an Office Form to collect feedback.
-
-And the page url is sent to Google Analytics as an event hit
-
-### More interactions
-
-There are many ways to interact with a doc website.
-
-Download a Postman collection, Download resources for integration, Open a PDF file, Switch between Web UI page to API page
-
-## Why GA for Tech Doc?
-
-Tech Documentation can Assist in Marketing and Sales:
-
-* Technology is complicated and fast-evolving.
-* Technical expertise plays important role from the very beginning of customer engagement.
-* Accurate/consistent product information depends on the collaboration between product/engineering/marketing/sales, etc.
-* Engineering team furnishes technical details, product team defines the scenarios/context, marketing/sales give it the flavor.
-
-Content Ecosystem for Product Success
-
-* The success of a product depends on efforts across teams/departments.
-* Knowledge/information that could bring success is often scattered.
-* A content ecosystem that encourages sharing/contributing while able to maintain consistency is a boon.
-
-*Instruct, Inform, Interact*
-
-You may want to contact marketing for a cookie consent management tool, and don't forget to consult with your legal team for legal concerns.
-
-https://www.cssscript.com/cookie-consent-popup-purecookie/
-
-## Further Reading
-
-* [Google Analytics Cookie Consent](https://consent.guide/google-analytics-cookie-consent/)
-* [Google Analytics Cookie Usage on Websites](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage)
-* [The Real Story on Cookies: Dispelling Common Myths About the GDPR and Consent](https://torquemag.io/2018/08/cookie-law-and-consent/)
-* [Hugo and the General Data Protection Regulation (GDPR)](https://gohugo.io/about/hugo-and-gdpr/)
 * [A GDPR cookie-consent banner for Hugo](https://liatas.com/posts/hugo-gdpr-cookie-consent-banner/)
-* [Turn "Do Not Track" on or off](https://support.google.com/chrome/answer/2790761?visit_id=637326372745325164-3057588087&p=settings_do_not_track&rd=1)
+* [A cookie-consent popup](https://www.cssscript.com/cookie-consent-popup-purecookie/)
