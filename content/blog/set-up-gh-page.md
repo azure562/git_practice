@@ -1,10 +1,9 @@
 ---
-title: "Automate Your Hugo Website Deployment to GitHub Page"
+title: "Automate Hugo Deployment to GitHub Page"
 date: 2021-09-25T19:35:32+02:00
 slug: ""
 description: ""
 keywords: []
-draft: true
 tags: ["Hugo", "Workflow", "Automation"]
 math: false
 toc: false
@@ -12,7 +11,7 @@ toc: false
 
 Setting up a blog under your own control might sound tricky, unless you know the secret ... Mine is [Hugo](https://gohugo.io/) + [GitHub Pages](https://pages.github.com/).
 
-There are lots of helpful articles avialbe online, a proof that many people have tried it out.
+There are lots of helpful articles available online, a proof that many people have tried it out.
 
 Below is a summary of my approach:
 
@@ -46,4 +45,4 @@ Note the following:
 
 * It makes sense to publish to the main branch, which is `master` in my repo.
 
-If you are reading this as a blog post, then it means *it works*!
+If you are reading this as a blog post, then it means *it works*! 🎉
