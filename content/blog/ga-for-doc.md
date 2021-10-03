@@ -13,12 +13,12 @@ You might have heard about the [build-measure-learn feedback loop](http://thelea
 
 But, how do you measure the performance of your tech docs? 📚
 
-In this article, I'll share some learnings when using Google Analytics to understand visitors' reaction to a tech docs web site.
+In this article, I'll share some learnings when using Google Analytics to understand visitors' reactions to a tech docs website.
 
 ## What is Google Analytics?
 
 First thing first, Google Analytics:
-- is a platform for tracking web site performance
+- is a platform for tracking website performance
 - uses a simple Javascript code to gather data
 - puts a cookie in the browser to report user interactions
 - is free 🤗
@@ -27,20 +27,20 @@ There are tons of tutorials about Google Analytics. You can also follow the free
 
 ## What can it do?
 
-Well, Google Analytics can do many things. For online tech docs, we are mainly interested in the folowing:
+Well, Google Analytics can do many things. For online tech docs, we are mainly interested in the following:
 
 * Where did the visitors come from? 🌐
 * How many visitors during a certain period? 🧑🏿‍🤝‍🧑🏻
-* How much time they spent on the pages? 👀
-* How they interacted with the individual pages? 🤸
+* How much time did they spend on the pages? 👀
+* How did they interact with the individual pages? 🤸
 
 Answers to these questions are found in the **Audience** reports and **Behavior** reports, using data collected through **Pageview hits** and **Event hits** (Transaction/Ecommerce hits usually do not apply to tech docs).
 
-The examples below are captured using [Google Merchandise Store demo account](https://analytics.google.com/analytics/web/demoAccount?appstate=report%2Fvisitors-overview%2Fa54516992w87479473p92320289%2F%253F_u.date00%253D20150801%2526_u.date01%253D20150831%2F).
+*The examples below are captured using [Google Merchandise Store demo account](https://analytics.google.com/analytics/web/demoAccount?appstate=report%2Fvisitors-overview%2Fa54516992w87479473p92320289%2F%253F_u.date00%253D20150801%2526_u.date01%253D20150831%2F).*
 
 ## Audience
 
-The *where did they come from* question is answered in the `Audience -> Geo -> Location` report.
+The question of *where did they come from* is answered in the `Audience -> Geo -> Location` report.
 
 ![location](/images/ga-demo-geo.PNG)
 
@@ -60,7 +60,7 @@ But more interesting is the `Behavior -> Site Content -> Content DrillDown` repo
 
 ![content drilldown](/images/ga-demo-contentdrilldown.PNG)
 
-For a tech docs web site, there are usually several top-level doc entries. Content DrillDown report can give you a clear idea about visitors' preference.
+💡 For a tech docs website, there are usually several top-level doc entries. Content DrillDown report can give you a clear idea about visitors' preferences.
 
 ### User Flow – Is there a common pattern?
 
@@ -74,7 +74,7 @@ This information could be helpful when considering the information structure of 
 
 ## Event Hits – It’s about interaction
 
-The biggest puzzle for any author, including a tech author, is the reaction from the audience. Do they like what they see/read, or they hate it, or just indifferent?
+The biggest puzzle for any author, including a tech author, is the reaction from the audience. Do they like what they see/read, or do they hate it, or are just indifferent?
 
 A simple trick to find it out is to place some emojis (😀 🙁 😕) on your web pages, and send an event hit when a user clicks any of them.
 
@@ -87,7 +87,7 @@ The syntax for GA event hit is as below:
 ga('send', 'event', eventCategory, eventAction, eventLable, eventValue)
 ```
 
-Once you understand GA event hit, you can track more interactions.
+Once you understand how GA event hit works, you can track more interactions.
 
 For example, to send an event hit when a user clicks a button:
 
@@ -97,19 +97,19 @@ For example, to send an event hit when a user clicks a button:
 
 For details, refer to [Sending Data to Google Analytics](https://developers.google.com/analytics/devguides/collection/analyticsjs/sending-hits).
 
-At this point, you might get curious about what a visitor might say if they are given the opportunity to do so. Adding a Microsoft Office Form or Google Form could be an option.
+At this point, you might get curious about what a visitor would say if they are given the opportunity. Adding a Microsoft Office Form or Google Form could be an option.
 
 ## Cookie Consent and GDPR
 
-Yes, Google Analytics uses cookie. With 🍪 there comes all the headache of privacy concern.
+Yes, Google Analytics uses cookies. With 🍪 there comes all the headache of privacy concerns.
 
 If you are in a tech doc team of a company, you may want to contact the marketing department for a cookie consent management tool, and consult with your legal department for professional guidance 📜.
 
-Below are some links I find useful on this topic:
+Reference information:
 
+* [The Real Story on Cookies: Dispelling Common Myths About the GDPR and Consent](https://torquemag.io/2018/08/cookie-law-and-consent/)
 * [Google Analytics Cookie Consent](https://consent.guide/google-analytics-cookie-consent/)
 * [Google Analytics Cookie Usage on Websites](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage)
-* [The Real Story on Cookies: Dispelling Common Myths About the GDPR and Consent](https://torquemag.io/2018/08/cookie-law-and-consent/)
 * [Turn "Do Not Track" on or off](https://support.google.com/chrome/answer/2790761?visit_id=637326372745325164-3057588087&p=settings_do_not_track&rd=1)
 * [IP Anonymization (or IP masking) in Google Analytics](https://support.google.com/analytics/answer/2763052?hl=en&ref_topic=2919631)
 

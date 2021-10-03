@@ -22,7 +22,7 @@ googleAnalytics = "UA-140149824-1"
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
   #twitter = "https://twitter.com/<your handle>"
-  #github = "https://github.com/<your handle>"
+  github = "https://github.com/azure562"
   # email = "mailto:<your email>"
   # mastodon = "https://mastodon.social/@nickname"
   # facebook = "https://facebook.com/<your handle>"
@@ -34,7 +34,7 @@ googleAnalytics = "UA-140149824-1"
   # Titles for your icons (shown as tooltips), and also their display order.
   # Currently, these icons are supported: 
   #   "Twitter", "GitHub", "Email", "Mastodon", "Facebook", "GitLab", "Instagram", "LinkedIn", "YouTube"
-  iconOrder = ["Twitter", "GitHub", "LinkedIn"]
+  iconOrder = ["GitHub", "LinkedIn"]
 
   # Metadata for Twitter cards, defaults to params.twitter
   # twitterSite = "@<your handle>"
@@ -56,6 +56,12 @@ googleAnalytics = "UA-140149824-1"
       unsafe = true
 
 # Controls the navigation
+
+[[menu.main]]
+  identifier = "home"
+  name = "🏠"
+  title = "Home"
+  url = "/"
 
 [[menu.main]]
   identifier = "about"
