@@ -30,3 +30,7 @@ I put some links here which I find useful, hopefully you also find so.
 ## Content Marketing
 
 * [Content Marketing Institute](https://contentmarketinginstitute.com/blog/)
+
+## Content Management/Stategy
+
+* [The Content Wrangler](https://thecontentwrangler.com/)
