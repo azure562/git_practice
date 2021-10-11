@@ -29,7 +29,7 @@ Such a perspective puts tech writers at the downstream of product development an
 
 While *"let people do what they are good at"* might appear efficient, it becomes dubious when examined under the lens of Lean philosophy, which believes that [expenditure of resources for any goal other than the creation of value for the end customer is wasteful](https://www.processexcellencenetwork.com/lean-six-sigma-business-performance/articles/what-is-lean).
 
-When there are numerous tools to improve writing, what is the point of having professionals toiling through *cosmetic, secretarial* work?
+When there are numerous tools to improve writing, what is the point of having professionals spending most of their time toiling through *cosmetic, secretarial* work?
 
 ## The changed landscape
 
