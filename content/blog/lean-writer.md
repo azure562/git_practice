@@ -1,10 +1,9 @@
 ---
 title: "Lean Writer"
-date: 2021-10-08T19:58:41+02:00
+date: 2021-10-10T19:58:41+02:00
 slug: ""
 description: ""
 keywords: []
-draft: true
 tags: []
 math: false
 toc: true
