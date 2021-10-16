@@ -15,7 +15,7 @@ html {
   }
 
   @media screen and (min-width: $large) {
-    font-size: 115%;
+    font-size: 105%;
   }
 }
 
@@ -53,9 +53,9 @@ h5 {
 }
 
 p {
-  margin-top: $leading;
+  margin-top: 0.8 * $leading;
   margin-bottom: 0;
-  line-height: $leading;
+  line-height: 1.2 * $leading;
 }
 
 ul,

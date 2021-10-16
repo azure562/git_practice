@@ -15,7 +15,7 @@ $tocBreakpoint: 1024px;
 
 .post {
   width: 100%;
-  max-width: 34rem;
+  max-width: 46rem;
   margin: 0 auto;
 
   h2,
@@ -24,6 +24,7 @@ $tocBreakpoint: 1024px;
     padding-top: 10px;
 
     .anchor {
+      display: none;
       top: 0.5rem;
       text-decoration: none;
       position: absolute;
@@ -51,7 +52,6 @@ $tocBreakpoint: 1024px;
 
   img {
     width: 100%;
-    // max-width: 500px;
     margin: 0 auto;
     display: block;
   }
@@ -83,13 +83,13 @@ $tocBreakpoint: 1024px;
 }
 
 .toc-post-title {
+  margin-top: 2rem;
   font-size: 0.9rem;
   margin-bottom: 0.8rem;
 }
 
-#TableOfContents {
+#TableOfContents {  
   ul {
-    list-style: none;
     margin: 0;
   }
 
