@@ -44,7 +44,7 @@ If the author has done his/her part of hard thinking, would that guarantee the r
 
 Let's see how we can use different styles to build visual hierarchies based on the pyramid structure.
 
-![visual cues](/images/visual-cues.PNG)
+![visual cues](/images/visual-cues.png)
 
 💭 *A word of caution: How to decide the size of a chunk (content block) depends on the nature of the content. The goal is to help navigation, not to disrupt the reading flow.*
 
@@ -62,7 +62,7 @@ To answer these questions, we take two steps:
 
 * Evaluate the ideas in each bucket.
 
-![buckets and ideas](/images/buckets-ideas.PNG?width=450px)
+![buckets and ideas](/images/buckets-ideas.png?width=450px)
 
 An ingredient of the Pyramid Principle, the [MECE principle (Mutually Exclusive, Collectively Exhaustive)](https://strategyu.co/wtf-is-mece-mutually-exclusive-collectively-exhaustive/) provides guidance on how to validate the buckets and the ideas within.
 
