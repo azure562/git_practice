@@ -10,7 +10,7 @@ math: false
 toc: true
 ---
 
-![hard thinking, easy reading](/images/thinking-reading.PNG)
+![hard thinking, easy reading](/images/thinking-reading.jpg)
 
 A peculiar challenge of technical communication is to convey complex information without confusing the audience. But what is *complex*?
 
