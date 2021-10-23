@@ -1,5 +1,5 @@
 ---
-title: "How to write (and I know you know) - Part I"
+title: "How to Write (and I know you know) - Part I"
 date: 2021-10-17T20:38:56+02:00
 slug: ""
 description: ""
