@@ -1,0 +1,32 @@
+{{ define "styles" }}
+    {{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/about.scss" "dest" "css/about.css") }}
+{{ end }}
+
+{{ define "main" }}
+
+<div class="splash-container">
+  <div class="splash">
+    
+    <h1>{{ .Params.heading }}<span class="fancy">.</span></h1>
+    {{ if isset .Params "handle" }}
+    <span class="handle">@{{ .Params.handle }}</span>
+    {{ end }}
+    <h2>
+      {{ .Params.subheading }}
+    </h2>
+    <!-- Replace MEEEEE -->
+
+    {{ partial "social-icons.html" .}}
+
+  <div>
+    {{ range first 2 (where site.RegularPages "Type" "in" site.Params.mainSections)}}
+      <li>
+        <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+      </li>
+    {{ end }}
+  </div>
+
+  </div>
+</div>
+
+{{ end }}
