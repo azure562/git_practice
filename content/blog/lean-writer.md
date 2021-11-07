@@ -72,5 +72,3 @@ If you believe in creating value in a customer-centric way, pay attention to the
 * Product Marketing 
 
 Become a Lean writer, cater to the full customer journey.
-
-*You might find this ending rather abrupt. My apologies. Though long-time tech writer, I'm still new to Lean and UX. I'll continue sharing my thoughts on this topic as I learn more.*
