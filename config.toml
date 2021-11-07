@@ -60,7 +60,7 @@ googleAnalytics = "UA-140149824-1"
 
 [[menu.main]]
   identifier = "home"
-  name = "🏠"
+  name = "home"
   title = "Home"
   url = "/"
 
