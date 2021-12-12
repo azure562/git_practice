@@ -41,8 +41,9 @@ $tocBreakpoint: 1024px;
 
   blockquote {
     width: 95%;
-    margin: 0 auto;
+    margin: 1.5rem;
     font-size: 1rem;
+    font-style: italic;
 
     a {
       color: $darkGrey;
