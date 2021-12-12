@@ -9,7 +9,7 @@ math: false
 toc: true
 ---
 
-I put some links here which I find useful, hopefully you also find so.
+Here are some resources that I find useful.
 
 ## Style
 
@@ -20,6 +20,8 @@ I put some links here which I find useful, hopefully you also find so.
 ## Writing Course
 
 * [Google Technical Writing Course](https://developers.google.com/tech-writing)
+
+* [Wikiversity Technical Writing course](https://en.wikiversity.org/wiki/Technical_writing): free writing courses, two levels: level 1 and leve-2
 
 ## Blog
 
@@ -34,3 +36,7 @@ I put some links here which I find useful, hopefully you also find so.
 ## Content Management/Stategy
 
 * [The Content Wrangler](https://thecontentwrangler.com/)
+
+## Developer Experience
+
+* [Developer Portals](https://pronovix.com/): Pronovix hosts a yearly [DevPortal Awards](https://devportalawards.org/) and a conference series [API The Docs conferences](https://apithedocs.org/).

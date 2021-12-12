@@ -51,7 +51,7 @@ From the definition of the three types of writings, it might seem obvious.
 
 You may have realized that the three writings serve different purposes. To understand the knowledge and skills required for each writing, a good starting point is the job market. Search  open positions for copywriter, technical writer, and UX writer, you'll get some ideas quickly.
 
-* Copywriting is in the domain of **marketing**. SEO, analysis, and journalism are often on the we-expect-these from-you list. How to know whether a piece of copywriting is good? See whether it can sell an idea and/or persuade people to act. No wonder the most important element in copywriting is a [call to action](https://en.wikipedia.org/wiki/Call_to_action_(marketing)). 
+* Copywriting is in the domain of **marketing**. SEO, analysis, and journalism are often on the we-expect-these-from-you list. How to know whether a piece of copywriting is good? See whether it can sell an idea and/or persuade people to act. No wonder the most important element in copywriting is a [call to action](https://en.wikipedia.org/wiki/Call_to_action_(marketing)). 
 
 * Technical writing belongs to the **engineering** world. Being part of product deliverables, technical documentation needs to be accurate and objective. Technical aptitude is important for a writer to succeed in this position.
 
@@ -59,7 +59,7 @@ You may have realized that the three writings serve different purposes. To under
 
 ## Where the line blurs
 
-The high-tech industry is blooming, and the competition is fierce. Whether aiming to attract technology enthusiasts to ignite an early market, or to appeal to more pragmatic minds in the mass market, no enterprise can afford to overlook the importance of delivering the right message to the right audience in the right context.
+The high-tech industry is blooming, and the competition is fierce. Whether aiming to attract technology enthusiasts to ignite an early market, or to appeal to more pragmatic minds in the mainstream market, no enterprise can afford to overlook the importance of delivering *the right message to the right audience in the right context*.
 
 But, just as the products/services are evolving, the audience is diverging.
 
