@@ -12,7 +12,7 @@ toc: true
 ![header image](/images/pexels-nubia-navarro-(nubikini)-1517355.jpg)
 <p style="text-align: center; font-style: italic; margin-top: 0; font-size: 0.9rem">Photo by <a href="https://www.pexels.com/@nubikini" target="_blank" rel="noreferrer noopener">Nubia Navarro (nubikini)</a> from Pexels</p>
 
-*Whether a side project or a hobby, it feels like we are all spending time learning new things outside the working hours... I'm trying to get familiar with Python. One day it dawned on me that maybe I can use my new knowledge with [Goodreads](https://www.goodreads.com/).*
+*Whether a side project or a hobby, it feels like we are all spending time learning new things outside of working hours... I'm trying to get familiar with Python. One day it dawned on me that maybe I can use my new knowledge with [Goodreads](https://www.goodreads.com/).*
 
 ## Get the data
 
