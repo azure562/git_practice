@@ -36,7 +36,7 @@ import pandas as pd
 books = pd.read_csv("goodreads_library_export.csv")
 ```
 
-Some columns/features are not very intereting, let's remove them.
+Some columns/features are not very interesting, let's remove them.
 
 ```python
 books.drop(columns=["Book Id", "Author l-f", "Additional Authors", "ISBN", "ISBN13", "Bookshelves", "Bookshelves with positions", "Read Count", "Private Notes", "My Review", "Spoiler", "Recommended For", "Recommended By", "Owned Copies", "Original Purchase Location", "Original Purchase Date", "Condition", "Condition Description", "BCID"], inplace=True)
