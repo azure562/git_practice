@@ -16,7 +16,7 @@ toc: true
 
 ## Get the data
 
-First, I need to export the information of my books from Goodreads.
+First, export the information of books from Goodreads.
 
 1. Log in to Goodreads, go to **My Books** > **Tools**, and select **Import and Export**.
 
@@ -26,7 +26,7 @@ First, I need to export the information of my books from Goodreads.
 
 ## Prepare the data
 
-Next, I need to get all of that data into a Pandas DataFrame.
+Next, get all of that data into a Pandas DataFrame.
 
 ```python
 from matplotlib import pyplot as plt
@@ -67,11 +67,11 @@ If staying with the conventional vertical bar chart, we'll have a chart like bel
 
 ![Conventional bar chart](/images/books-by-authors_vertical.png)
 
-Dull and boring, right?
+Not very exciting, right?
 
 A good book about data visualization is [Stroytelling with data](https://www.storytellingwithdata.com/books). Among the many topics it covers, there is one about *choosing an effective visual*. It convinced me that I'll be better off with a horizontal bar chart. And I need to declutter (remove noises) the chart as much as possible.
 
-After many tries, copy-paste from [stackoverflow](https://stackoverflow.com/), and read from matplotlib and Python documentation (yeah, we do need to read the documentation!) I got a horizontal bar chart.
+After a lot of trial and error, copy-paste from [stackoverflow](https://stackoverflow.com/), and read matplotlib and Python documentation (yeah, we do need to read the documentation!) I got a horizontal bar chart.
 
 ![Nice horizontal bar chart](/images/books-by-authors.png)
 
