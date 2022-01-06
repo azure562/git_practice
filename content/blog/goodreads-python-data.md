@@ -167,4 +167,4 @@ It's reassuring to see my interest in some authors lasts longer than others.
 
 While trying this small project, I began to have more ideas about questions to which I want to find an aswer. There is so much hidden information in the data.
 
-If you are interested to see all the detail of my experimentation with Goodreads data, have a look at my [Github repo](https://github.com/azure562/python/blob/master/goodreads-authors.ipynb). Maybe you can help me to improve it or device new applications! 
+If you are interested to see all the detail of my experimentation with Goodreads data, have a look at my [Github repo](https://github.com/azure562/python/blob/master/goodreads-authors.ipynb). Maybe you can help me to improve it or devise new applications! 
