@@ -72,6 +72,4 @@ I'm not a fan of single-sourcing publishing, but am one of technical documentati
 
 Ideas evolve, roles evolve, because business and people change, and we need to adapt.😉
 
-On the other hand, it's always good to think and experiment, to try something different.
-
-I'll come back to this topic when there are new ideas or experiences to share. Meanwhile, comments are welcome! 
+On the other hand, it's always good to think and experiment, to try something different. I'll come back to this topic when there are new ideas or experiences to share. Meanwhile, comments are welcome! 
