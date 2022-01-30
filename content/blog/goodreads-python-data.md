@@ -1,5 +1,5 @@
 ---
-title: "Exploring Goodreads data: my most read authors"
+title: "Explore Goodreads data: my most read authors"
 date: 2022-01-02T10:13:15+01:00
 slug: ""
 description: ""
