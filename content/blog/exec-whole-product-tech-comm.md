@@ -1,5 +1,5 @@
 ---
-title: "Execute Whole Product Techchnical Communication"
+title: "Execute Whole Product Technical Communication"
 date: 2022-01-30T19:06:34+01:00
 slug: ""
 description: ""
