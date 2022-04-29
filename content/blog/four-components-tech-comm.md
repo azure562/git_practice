@@ -32,7 +32,7 @@ Go back to the example of one product with two faces. How does that come?
 
 The problem is partly caused by necessity. CMS solutions for corporate websites mainly focus on marketing collaterals. They fall short if you are offering sandbox or code examples to engage API users, or doing continuous release for SaaS products. Instead of trying to accommodate a traditional CMS into a modern CI/CD pipeline, if that's even possible, it makes more sense to keep marketing copies and tech docs in different systems.
 
-Nevertheless, difference behind the scene doesn't mean there cannot be a unified front. 
+Nevertheless, difference behind the scenes doesn't mean there cannot be a unified front. 
 
 If your organization already has or is building a UI/UX team, chances are you have a [design system](https://www.robertcreative.com/blog/what-is-a-design-system) in place or in progress. To leverage design systems for a consistent look and feel, the first step could be a design audit. Are the UI elements in all the components/interfaces of the product following the same design principles? If not, is that a conscious decision?
 
