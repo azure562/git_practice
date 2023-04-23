@@ -60,18 +60,24 @@ googleAnalytics = "G-9DYLKEL5L2"
 
 [[menu.main]]
   identifier = "home"
-  name = "home"
-  title = "Home"
+  name = "Home"
+  title = "home"
   url = "/"
 
 [[menu.main]]
   identifier = "about"
-  name = "about"
-  title = "About"
+  name = "About"
+  title = "about"
   url = "/about"
 
 [[menu.main]]
   identifier = "blog"
-  name = "blog"
-  title = "Blog"
+  name = "Tech writing"
+  title = "blog"
   url = "/blog"
+
+[[menu.main]]
+  identifier = "others"
+  name = "Varied"
+  title = "Others"
+  url = "/others"
