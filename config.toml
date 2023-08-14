@@ -19,7 +19,7 @@ googleAnalytics = "G-9DYLKEL5L2"
   # https://gohugo.io/functions/format/#gos-layout-string
   dateFormat = "Jan 2 2006"
 
-  mainSections = ["blog", "docops", "lab"]
+  mainSections = ["strategy", "blog", "docops", "lab"]
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
   #twitter = "https://twitter.com/<your handle>"
@@ -71,20 +71,27 @@ googleAnalytics = "G-9DYLKEL5L2"
   url = "/about"
 
 [[menu.main]]
+  identifier = "strategy"
+  name = "01: Doc Strategy"
+  title = "strategy"
+  url = "/strategy"
+
+
+[[menu.main]]
   identifier = "blog"
-  name = "01: Writing"
+  name = "02: Tech Writing"
   title = "blog"
   url = "/blog"
 
 [[menu.main]]
   identifier = "docops"
-  name = "02: DocOps"
+  name = "03: DocOps"
   title = "DocOps"
   url = "/docops"
 
 [[menu.main]]
   identifier = "labs"
-  name = "03: Mini lab"
+  name = "04: Mini lab"
   title = "Lab"
   url = "/lab"
 
