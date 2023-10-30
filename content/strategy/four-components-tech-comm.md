@@ -24,7 +24,7 @@ You might be wondering why this is a challenge. If the technical documentation i
 
 Maybe you have clicked that label on some polished websites, only to find yourself teleported to a world somewhat disconnected from the previous one. Such an experience will caution you against the WPTC-is-one-link-away perception.
 
-Last time we briefly explored the [RACI matrix](/blog/exec-whole-product-tech-comm/#revised-content-responsibility-matrix) in WPTC, in this post we'll have a look at four areas that are of particular interest to our endeavor.
+Last time we briefly explored the [RACI matrix](/strategy/exec-whole-product-tech-comm/#revised-content-responsibility-matrix) in WPTC, in this post we'll have a look at four areas that are of particular interest to our endeavor.
 
 ## #1: Design system
 

@@ -12,7 +12,7 @@ toc: true
 
 ![whole product content strategy](/images/whole-product-content-title.png)
 
-*While the concept of [whole product technical communication](/blog/whole-product-tech-comm/) sounds simple, the execution is anything but straightforward. In this post, we are going to look a bit harder at the issue in the hope of coming up with actionable items.*
+*While the concept of [whole product technical communication](/strategy/whole-product-tech-comm/) sounds simple, the execution is anything but straightforward. In this post, we are going to look a bit harder at the issue in the hope of coming up with actionable items.*
 
 ## Where are we now &ndash; a simplified responsibility matrix
 
@@ -40,7 +40,7 @@ But why?
 
 ![whole product content](/images/whole-product-content.png)
 
-Information gathered in the knowledge base and communicated with partners not only sheds light on how the product is doing in the business ecosystem, but more importantly, it can inspire new ideas to build up the product. Such information is of particular importance for the "Augmented Product" and "Potential Product" in the [whole product model](/blog/whole-product-tech-comm/#technology-adoption-life-cycle-and-whole-product-model), and also for post-sales support.
+Information gathered in the knowledge base and communicated with partners not only sheds light on how the product is doing in the business ecosystem, but more importantly, it can inspire new ideas to build up the product. Such information is of particular importance for the "Augmented Product" and "Potential Product" in the [whole product model](/strategy/whole-product-tech-comm/#technology-adoption-life-cycle-and-whole-product-model), and also for post-sales support.
 
 ## Revised content responsibility matrix
 
