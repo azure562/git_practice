@@ -95,8 +95,8 @@ googleAnalytics = "G-9DYLKEL5L2"
   title = "Lab"
   url = "/lab"
 
-[[menu.main]]
-  identifier = "others"
-  name = "Unsorted"
-  title = "Others"
-  url = "/others"
+# [[menu.main]]
+#  identifier = "others"
+#  name = "Unsorted"
+#  title = "Others"
+#  url = "/others"
