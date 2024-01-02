@@ -5,7 +5,7 @@ theme = "hugo-theme-codex"
 title = "Retold"
 languageCode = "en-us"
 baseURL = "https://azure562.github.io"
-copyright = "© {year}"
+copyright = "© 2023-{year}"
 
 # Add your Disqus shortname here.
 # disqusShortname = ""
