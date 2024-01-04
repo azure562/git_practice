@@ -2,7 +2,7 @@
 theme = "hugo-theme-codex" 
 
 # Override these settings with your own
-title = "Retold"
+title = "New Light"
 languageCode = "en-us"
 baseURL = "https://azure562.github.io"
 copyright = "© 2023-{year}"

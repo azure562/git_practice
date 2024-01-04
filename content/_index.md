@@ -1,7 +1,7 @@
 ---
-title: "Retold"
+title: "New Light"
 description: ""
-heading: "Retold"
+heading: "New Light"
 subheading: "Time present and time past"
 #handle: "hugo-theme-codex"
 date: 2021-09-17T21:06:42+02:00
