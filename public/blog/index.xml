@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on New Light</title>
+    <link>https://azure562.github.io/blog/</link>
+    <description>Recent content in Blogs on New Light</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2023-{year}</copyright>
+    <lastBuildDate>Sun, 14 Nov 2021 13:23:32 +0100</lastBuildDate><atom:link href="https://azure562.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A brief discussion: Copywriting, Technical writing, UX writing, and product experience</title>
+      <link>https://azure562.github.io/blog/copy-tech-ux-writing/</link>
+      <pubDate>Sun, 14 Nov 2021 13:23:32 +0100</pubDate>
+      
+      <guid>https://azure562.github.io/blog/copy-tech-ux-writing/</guid>
+      <description>Photo by fauxels from Pexels
+Have you ever wondered about the various types of writings, or what exactly that guy/gal with a title of “some writer” is doing?
+Traditionally in the job market there are two categories of writing positions: copywriting and technical writing. Not long ago there entered a new one: UX writing. But what’s the difference? And what is the implication to the profession of writing and to the business world in general?</description>
+    </item>
+    
+    <item>
+      <title>How to Write (and I know you know) - Part I</title>
+      <link>https://azure562.github.io/blog/how-to-write-1/</link>
+      <pubDate>Sun, 17 Oct 2021 20:38:56 +0200</pubDate>
+      
+      <guid>https://azure562.github.io/blog/how-to-write-1/</guid>
+      <description>Photo by Ketut Subiyanto from Pexels
+If you have established your credibility as a technical writer or communicator, it’s only natural that people come to you for advice on writing.
+Though almost every profession has to deal with some writing tasks, most of the time a well-defined template could guarantee a decent output.
+Chances are, those who come to you are not asking for a template. If they are not committed to becoming a tech writer, what advice would you give, advice that is generic enough while still focus on technical aspects (a knowledge-sharing topic, a how-to guide, or a draft for a section in tech docs)?</description>
+    </item>
+    
+    <item>
+      <title>Lean Writer</title>
+      <link>https://azure562.github.io/blog/lean-writer/</link>
+      <pubDate>Sun, 10 Oct 2021 19:58:41 +0200</pubDate>
+      
+      <guid>https://azure562.github.io/blog/lean-writer/</guid>
+      <description>How does a tech writer create value in the customer-centric era?
+Photo by Jessica Lynn Lewis on Pexels
+Still optimizing for editorial skill? Though the job title of Tech Writer is nothing new, the scope of a tech writer’s work is never clear-cut.
+Traditionally, tech writers are responsible for:
+editing the drafts provided by developers applying some editorial styles publishing the final user documentation Such a perspective puts tech writers at the downstream of product development and leads to the practice of allocating one tech writer to multiple projects (often across different products).</description>
+    </item>
+    
+    <item>
+      <title>Reference Information</title>
+      <link>https://azure562.github.io/blog/reference-info/</link>
+      <pubDate>Sat, 18 Sep 2021 20:01:11 +0200</pubDate>
+      
+      <guid>https://azure562.github.io/blog/reference-info/</guid>
+      <description>Here are some resources that I find useful.
+Style The Chicago Manual of Style
+Microsoft Writing Style Guide
+Writing Course Google Technical Writing Course
+Wikiversity Technical Writing course: free writing courses, two levels: level 1 and leve-2
+Blog I&amp;rsquo;d rather be writing
+Technical Writer
+Content Marketing Content Marketing Institute Content Management/Stategy The Content Wrangler Developer Experience Developer Portals: Pronovix hosts a yearly DevPortal Awards and a conference series API The Docs conferences.</description>
+    </item>
+    
+  </channel>
+</rss>

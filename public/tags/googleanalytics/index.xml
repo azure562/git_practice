@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GoogleAnalytics on New Light</title>
+    <link>https://azure562.github.io/tags/googleanalytics/</link>
+    <description>Recent content in GoogleAnalytics on New Light</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2023-{year}</copyright>
+    <lastBuildDate>Fri, 01 Oct 2021 19:24:22 +0200</lastBuildDate><atom:link href="https://azure562.github.io/tags/googleanalytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Analytics for Tech Docs</title>
+      <link>https://azure562.github.io/docops/ga-for-doc/</link>
+      <pubDate>Fri, 01 Oct 2021 19:24:22 +0200</pubDate>
+      
+      <guid>https://azure562.github.io/docops/ga-for-doc/</guid>
+      <description>You might have heard about the build-measure-learn feedback loop, a core component of the Lean Startup 🦄 methodology. Measure is important to learn how customers/audiences respond to a product or service.
+But, how do you measure the performance of your tech docs? 📚
+In this article, I&amp;rsquo;ll share some learnings when using Google Analytics to understand visitors&amp;rsquo; reactions to a tech docs website.
+What is Google Analytics? First thing first, Google Analytics:</description>
+    </item>
+    
+  </channel>
+</rss>

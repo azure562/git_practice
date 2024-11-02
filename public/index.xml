@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New Light</title>
+    <link>https://azure562.github.io/</link>
+    <description>Recent content on New Light</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2023-{year}</copyright>
+    <lastBuildDate>Fri, 17 Sep 2021 21:06:42 +0200</lastBuildDate><atom:link href="https://azure562.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bloom&#39;s Taxonomy for Technical Documentation</title>
+      <link>https://azure562.github.io/strategy/bloom-taxonomy-for-tech-writing/</link>
+      <pubDate>Sun, 09 Jun 2024 11:18:02 +0200</pubDate>
+      
+      <guid>https://azure562.github.io/strategy/bloom-taxonomy-for-tech-writing/</guid>
+      <description>Photo by Tirachard Kumtanom from Pexels
+How do you define the success of technical documentation, and how do you measure it?
+Whether managing a tech writing team or writing as an individual contributor, you&amp;rsquo;re likely to face these questions or wonder about them from time to time. Readability, typos, release frequency, time on page, unique users, pages per session, are all among the metrics that have been tried but to no one&amp;rsquo;s satisfaction.</description>
+    </item>
+    
+    <item>
+      <title>Content Inventory and Information Architecture</title>
+      <link>https://azure562.github.io/strategy/content-audit/</link>
+      <pubDate>Mon, 30 Oct 2023 18:46:56 +0000</pubDate>
+      
+      <guid>https://azure562.github.io/strategy/content-audit/</guid>
+      <description>Photo by Pixabay from Pexels
+A content inventory and a content audit are often mentioned together and conducted in tandem. While usually discussed in the context of web content, surely they can benefit documentation website as well. Agree?
+Intro Among the many wondrous things generative AI can do for mortals, there is one called &amp;ldquo;read the documentation.&amp;rdquo; Promises abound that finally we can &amp;ldquo;say goodbye to digging through documentation&amp;rdquo; and embrace &amp;ldquo;instant answers.</description>
+    </item>
+    
+    <item>
+      <title>Use Github Repo Secret in Python (without Action)</title>
+      <link>https://azure562.github.io/docops/github-repo-secret-in-python/</link>
+      <pubDate>Fri, 30 Jun 2023 18:17:35 +0000</pubDate>
+      
+      <guid>https://azure562.github.io/docops/github-repo-secret-in-python/</guid>
+      <description>The problem to solve Every month there is a task to update exchange rates in a markdown file. All there is to do is to send an API request to get the foreign exchange rates and currency conversion, extract the data from the response, and then format it.
+A perfect job for Python! The only challenge is that we do not want to include API key in the Python script. How to handle that?</description>
+    </item>
+    
+    <item>
+      <title>Four Components of Whole Product Technical Communication</title>
+      <link>https://azure562.github.io/strategy/four-components-tech-comm/</link>
+      <pubDate>Tue, 26 Apr 2022 14:20:02 +0100</pubDate>
+      
+      <guid>https://azure562.github.io/strategy/four-components-tech-comm/</guid>
+      <description>Recap and intro It has been a while, so, here is a recap of what we mean by whole product technical communication:
+Whole product technical communication (WPTC) aims to streamline the communication of technology product information, build a cohesive product experience, and engage customers at every stage through the whole technology/product adoption life cycle.
+The main challenge of WPTC is to bridge the gap between marketing and technology; a direct outcome is having technical information in the storefront, i.</description>
+    </item>
+    
+    <item>
+      <title>Execute Whole Product Technical Communication</title>
+      <link>https://azure562.github.io/strategy/exec-whole-product-tech-comm/</link>
+      <pubDate>Sun, 30 Jan 2022 19:06:34 +0100</pubDate>
+      
+      <guid>https://azure562.github.io/strategy/exec-whole-product-tech-comm/</guid>
+      <description>While the concept of whole product technical communication sounds simple, the execution is anything but straightforward. In this post, we are going to look a bit harder at the issue in the hope of coming up with actionable items.
+Where are we now – a simplified responsibility matrix The less-than-ideal situation in which many technology products find themselves is due to the insufficient coordination between marketing teams and technology teams.</description>
+    </item>
+    
+    <item>
+      <title>Explore Goodreads data: my most read authors</title>
+      <link>https://azure562.github.io/lab/goodreads-python-data/</link>
+      <pubDate>Sun, 02 Jan 2022 10:13:15 +0100</pubDate>
+      
+      <guid>https://azure562.github.io/lab/goodreads-python-data/</guid>
+      <description>Photo by Nubia Navarro (nubikini) from Pexels
+Whether a side project or a hobby, it feels like we are all spending time learning new things outside of working hours&amp;hellip; I&amp;rsquo;m trying to get familiar with Python. One day it dawned on me that maybe I can use my new knowledge with Goodreads.
+Get the data First, export the information of books from Goodreads.
+Log in to Goodreads, go to My Books &amp;gt; Tools, and select Import and Export.</description>
+    </item>
+    
+    <item>
+      <title>Whole Product Technical Communication</title>
+      <link>https://azure562.github.io/strategy/whole-product-tech-comm/</link>
+      <pubDate>Sun, 12 Dec 2021 10:30:49 +0100</pubDate>
+      
+      <guid>https://azure562.github.io/strategy/whole-product-tech-comm/</guid>
+      <description>Photo by Tara Winstead from Pexels
+My previous post ended with a question: how to build a cohesive product experience with the different types of writings: copywriting, technical writing, and UX writing? This is a topic I&amp;rsquo;ve been pondering time and again. Here is the recent thought.
+Global trends and technology buying research Let&amp;rsquo;s start with some observations of today&amp;rsquo;s high-tech industry.
+From project management&amp;rsquo;s point of view, the Project Management Institute (PMI)&amp;rsquo;s PMBOK® Guide believes there are three global trends that are disrupting traditional business models and transforming products and services:</description>
+    </item>
+    
+    <item>
+      <title>A brief discussion: Copywriting, Technical writing, UX writing, and product experience</title>
+      <link>https://azure562.github.io/blog/copy-tech-ux-writing/</link>
+      <pubDate>Sun, 14 Nov 2021 13:23:32 +0100</pubDate>
+      
+      <guid>https://azure562.github.io/blog/copy-tech-ux-writing/</guid>
+      <description>Photo by fauxels from Pexels
+Have you ever wondered about the various types of writings, or what exactly that guy/gal with a title of “some writer” is doing?
+Traditionally in the job market there are two categories of writing positions: copywriting and technical writing. Not long ago there entered a new one: UX writing. But what’s the difference? And what is the implication to the profession of writing and to the business world in general?</description>
+    </item>
+    
+    <item>
+      <title>How to Write (and I know you know) - Part I</title>
+      <link>https://azure562.github.io/blog/how-to-write-1/</link>
+      <pubDate>Sun, 17 Oct 2021 20:38:56 +0200</pubDate>
+      
+      <guid>https://azure562.github.io/blog/how-to-write-1/</guid>
+      <description>Photo by Ketut Subiyanto from Pexels
+If you have established your credibility as a technical writer or communicator, it’s only natural that people come to you for advice on writing.
+Though almost every profession has to deal with some writing tasks, most of the time a well-defined template could guarantee a decent output.
+Chances are, those who come to you are not asking for a template. If they are not committed to becoming a tech writer, what advice would you give, advice that is generic enough while still focus on technical aspects (a knowledge-sharing topic, a how-to guide, or a draft for a section in tech docs)?</description>
+    </item>
+    
+    <item>
+      <title>Lean Writer</title>
+      <link>https://azure562.github.io/blog/lean-writer/</link>
+      <pubDate>Sun, 10 Oct 2021 19:58:41 +0200</pubDate>
+      
+      <guid>https://azure562.github.io/blog/lean-writer/</guid>
+      <description>How does a tech writer create value in the customer-centric era?
+Photo by Jessica Lynn Lewis on Pexels
+Still optimizing for editorial skill? Though the job title of Tech Writer is nothing new, the scope of a tech writer’s work is never clear-cut.
+Traditionally, tech writers are responsible for:
+editing the drafts provided by developers applying some editorial styles publishing the final user documentation Such a perspective puts tech writers at the downstream of product development and leads to the practice of allocating one tech writer to multiple projects (often across different products).</description>
+    </item>
+    
+    <item>
+      <title>Google Analytics for Tech Docs</title>
+      <link>https://azure562.github.io/docops/ga-for-doc/</link>
+      <pubDate>Fri, 01 Oct 2021 19:24:22 +0200</pubDate>
+      
+      <guid>https://azure562.github.io/docops/ga-for-doc/</guid>
+      <description>You might have heard about the build-measure-learn feedback loop, a core component of the Lean Startup 🦄 methodology. Measure is important to learn how customers/audiences respond to a product or service.
+But, how do you measure the performance of your tech docs? 📚
+In this article, I&amp;rsquo;ll share some learnings when using Google Analytics to understand visitors&amp;rsquo; reactions to a tech docs website.
+What is Google Analytics? First thing first, Google Analytics:</description>
+    </item>
+    
+    <item>
+      <title>Automate Hugo Deployment to GitHub Page</title>
+      <link>https://azure562.github.io/docops/set-up-gh-page/</link>
+      <pubDate>Sat, 25 Sep 2021 19:35:32 +0200</pubDate>
+      
+      <guid>https://azure562.github.io/docops/set-up-gh-page/</guid>
+      <description>Setting up a blog under your own control might sound tricky, unless you know the secret &amp;hellip; Mine is Hugo + GitHub Pages.
+There are lots of helpful articles available online, a proof that many people have tried it out.
+Below is a summary of my approach:
+Set up a repository for the source content.
+Set up another repository for the GitHub page, which will host your generated website.
+For these first two steps, you can aslo follow Build a Personal Website With Github Pages and Hugo.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://azure562.github.io/about/</link>
+      <pubDate>Sat, 18 Sep 2021 20:10:22 +0200</pubDate>
+      
+      <guid>https://azure562.github.io/about/</guid>
+      <description>I&amp;rsquo;m a technical writer with decades of experience documenting software products for enterprise users.
+When it comes to technical writing, I value logic, clarity, and accuracy. These three attributes are also what I&amp;rsquo;m most proud of in my work.
+Find me at LinkedIn or contact me if you&amp;rsquo;re intersted to know more.</description>
+    </item>
+    
+    <item>
+      <title>Reference Information</title>
+      <link>https://azure562.github.io/blog/reference-info/</link>
+      <pubDate>Sat, 18 Sep 2021 20:01:11 +0200</pubDate>
+      
+      <guid>https://azure562.github.io/blog/reference-info/</guid>
+      <description>Here are some resources that I find useful.
+Style The Chicago Manual of Style
+Microsoft Writing Style Guide
+Writing Course Google Technical Writing Course
+Wikiversity Technical Writing course: free writing courses, two levels: level 1 and leve-2
+Blog I&amp;rsquo;d rather be writing
+Technical Writer
+Content Marketing Content Marketing Institute Content Management/Stategy The Content Wrangler Developer Experience Developer Portals: Pronovix hosts a yearly DevPortal Awards and a conference series API The Docs conferences.</description>
+    </item>
+    
+  </channel>
+</rss>

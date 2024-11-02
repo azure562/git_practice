@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data-visualization on New Light</title>
+    <link>https://azure562.github.io/tags/data-visualization/</link>
+    <description>Recent content in data-visualization on New Light</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2023-{year}</copyright>
+    <lastBuildDate>Sun, 02 Jan 2022 10:13:15 +0100</lastBuildDate><atom:link href="https://azure562.github.io/tags/data-visualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Explore Goodreads data: my most read authors</title>
+      <link>https://azure562.github.io/lab/goodreads-python-data/</link>
+      <pubDate>Sun, 02 Jan 2022 10:13:15 +0100</pubDate>
+      
+      <guid>https://azure562.github.io/lab/goodreads-python-data/</guid>
+      <description>Photo by Nubia Navarro (nubikini) from Pexels
+Whether a side project or a hobby, it feels like we are all spending time learning new things outside of working hours&amp;hellip; I&amp;rsquo;m trying to get familiar with Python. One day it dawned on me that maybe I can use my new knowledge with Goodreads.
+Get the data First, export the information of books from Goodreads.
+Log in to Goodreads, go to My Books &amp;gt; Tools, and select Import and Export.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on New Light</title>
+    <link>https://azure562.github.io/tags/</link>
+    <description>Recent content in Tags on New Light</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2023-{year}</copyright>
+    <lastBuildDate>Fri, 30 Jun 2023 18:17:35 +0000</lastBuildDate><atom:link href="https://azure562.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python</title>
+      <link>https://azure562.github.io/tags/python/</link>
+      <pubDate>Fri, 30 Jun 2023 18:17:35 +0000</pubDate>
+      
+      <guid>https://azure562.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Content Strategy</title>
+      <link>https://azure562.github.io/tags/content-strategy/</link>
+      <pubDate>Tue, 26 Apr 2022 14:20:02 +0100</pubDate>
+      
+      <guid>https://azure562.github.io/tags/content-strategy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data-visualization</title>
+      <link>https://azure562.github.io/tags/data-visualization/</link>
+      <pubDate>Sun, 02 Jan 2022 10:13:15 +0100</pubDate>
+      
+      <guid>https://azure562.github.io/tags/data-visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GoogleAnalytics</title>
+      <link>https://azure562.github.io/tags/googleanalytics/</link>
+      <pubDate>Fri, 01 Oct 2021 19:24:22 +0200</pubDate>
+      
+      <guid>https://azure562.github.io/tags/googleanalytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://azure562.github.io/tags/hugo/</link>
+      <pubDate>Fri, 01 Oct 2021 19:24:22 +0200</pubDate>
+      
+      <guid>https://azure562.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automation</title>
+      <link>https://azure562.github.io/tags/automation/</link>
+      <pubDate>Sat, 25 Sep 2021 19:35:32 +0200</pubDate>
+      
+      <guid>https://azure562.github.io/tags/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workflow</title>
+      <link>https://azure562.github.io/tags/workflow/</link>
+      <pubDate>Sat, 25 Sep 2021 19:35:32 +0200</pubDate>
+      
+      <guid>https://azure562.github.io/tags/workflow/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

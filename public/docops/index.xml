@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docops on New Light</title>
+    <link>https://azure562.github.io/docops/</link>
+    <description>Recent content in Docops on New Light</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2023-{year}</copyright>
+    <lastBuildDate>Fri, 30 Jun 2023 18:17:35 +0000</lastBuildDate><atom:link href="https://azure562.github.io/docops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use Github Repo Secret in Python (without Action)</title>
+      <link>https://azure562.github.io/docops/github-repo-secret-in-python/</link>
+      <pubDate>Fri, 30 Jun 2023 18:17:35 +0000</pubDate>
+      
+      <guid>https://azure562.github.io/docops/github-repo-secret-in-python/</guid>
+      <description>The problem to solve Every month there is a task to update exchange rates in a markdown file. All there is to do is to send an API request to get the foreign exchange rates and currency conversion, extract the data from the response, and then format it.
+A perfect job for Python! The only challenge is that we do not want to include API key in the Python script. How to handle that?</description>
+    </item>
+    
+    <item>
+      <title>Google Analytics for Tech Docs</title>
+      <link>https://azure562.github.io/docops/ga-for-doc/</link>
+      <pubDate>Fri, 01 Oct 2021 19:24:22 +0200</pubDate>
+      
+      <guid>https://azure562.github.io/docops/ga-for-doc/</guid>
+      <description>You might have heard about the build-measure-learn feedback loop, a core component of the Lean Startup 🦄 methodology. Measure is important to learn how customers/audiences respond to a product or service.
+But, how do you measure the performance of your tech docs? 📚
+In this article, I&amp;rsquo;ll share some learnings when using Google Analytics to understand visitors&amp;rsquo; reactions to a tech docs website.
+What is Google Analytics? First thing first, Google Analytics:</description>
+    </item>
+    
+    <item>
+      <title>Automate Hugo Deployment to GitHub Page</title>
+      <link>https://azure562.github.io/docops/set-up-gh-page/</link>
+      <pubDate>Sat, 25 Sep 2021 19:35:32 +0200</pubDate>
+      
+      <guid>https://azure562.github.io/docops/set-up-gh-page/</guid>
+      <description>Setting up a blog under your own control might sound tricky, unless you know the secret &amp;hellip; Mine is Hugo + GitHub Pages.
+There are lots of helpful articles available online, a proof that many people have tried it out.
+Below is a summary of my approach:
+Set up a repository for the source content.
+Set up another repository for the GitHub page, which will host your generated website.
+For these first two steps, you can aslo follow Build a Personal Website With Github Pages and Hugo.</description>
+    </item>
+    
+  </channel>
+</rss>

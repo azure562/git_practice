@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Strategies on New Light</title>
+    <link>https://azure562.github.io/strategy/</link>
+    <description>Recent content in Strategies on New Light</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2023-{year}</copyright>
+    <lastBuildDate>Sun, 09 Jun 2024 11:18:02 +0200</lastBuildDate><atom:link href="https://azure562.github.io/strategy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bloom&#39;s Taxonomy for Technical Documentation</title>
+      <link>https://azure562.github.io/strategy/bloom-taxonomy-for-tech-writing/</link>
+      <pubDate>Sun, 09 Jun 2024 11:18:02 +0200</pubDate>
+      
+      <guid>https://azure562.github.io/strategy/bloom-taxonomy-for-tech-writing/</guid>
+      <description>Photo by Tirachard Kumtanom from Pexels
+How do you define the success of technical documentation, and how do you measure it?
+Whether managing a tech writing team or writing as an individual contributor, you&amp;rsquo;re likely to face these questions or wonder about them from time to time. Readability, typos, release frequency, time on page, unique users, pages per session, are all among the metrics that have been tried but to no one&amp;rsquo;s satisfaction.</description>
+    </item>
+    
+    <item>
+      <title>Content Inventory and Information Architecture</title>
+      <link>https://azure562.github.io/strategy/content-audit/</link>
+      <pubDate>Mon, 30 Oct 2023 18:46:56 +0000</pubDate>
+      
+      <guid>https://azure562.github.io/strategy/content-audit/</guid>
+      <description>Photo by Pixabay from Pexels
+A content inventory and a content audit are often mentioned together and conducted in tandem. While usually discussed in the context of web content, surely they can benefit documentation website as well. Agree?
+Intro Among the many wondrous things generative AI can do for mortals, there is one called &amp;ldquo;read the documentation.&amp;rdquo; Promises abound that finally we can &amp;ldquo;say goodbye to digging through documentation&amp;rdquo; and embrace &amp;ldquo;instant answers.</description>
+    </item>
+    
+    <item>
+      <title>Four Components of Whole Product Technical Communication</title>
+      <link>https://azure562.github.io/strategy/four-components-tech-comm/</link>
+      <pubDate>Tue, 26 Apr 2022 14:20:02 +0100</pubDate>
+      
+      <guid>https://azure562.github.io/strategy/four-components-tech-comm/</guid>
+      <description>Recap and intro It has been a while, so, here is a recap of what we mean by whole product technical communication:
+Whole product technical communication (WPTC) aims to streamline the communication of technology product information, build a cohesive product experience, and engage customers at every stage through the whole technology/product adoption life cycle.
+The main challenge of WPTC is to bridge the gap between marketing and technology; a direct outcome is having technical information in the storefront, i.</description>
+    </item>
+    
+    <item>
+      <title>Execute Whole Product Technical Communication</title>
+      <link>https://azure562.github.io/strategy/exec-whole-product-tech-comm/</link>
+      <pubDate>Sun, 30 Jan 2022 19:06:34 +0100</pubDate>
+      
+      <guid>https://azure562.github.io/strategy/exec-whole-product-tech-comm/</guid>
+      <description>While the concept of whole product technical communication sounds simple, the execution is anything but straightforward. In this post, we are going to look a bit harder at the issue in the hope of coming up with actionable items.
+Where are we now – a simplified responsibility matrix The less-than-ideal situation in which many technology products find themselves is due to the insufficient coordination between marketing teams and technology teams.</description>
+    </item>
+    
+    <item>
+      <title>Whole Product Technical Communication</title>
+      <link>https://azure562.github.io/strategy/whole-product-tech-comm/</link>
+      <pubDate>Sun, 12 Dec 2021 10:30:49 +0100</pubDate>
+      
+      <guid>https://azure562.github.io/strategy/whole-product-tech-comm/</guid>
+      <description>Photo by Tara Winstead from Pexels
+My previous post ended with a question: how to build a cohesive product experience with the different types of writings: copywriting, technical writing, and UX writing? This is a topic I&amp;rsquo;ve been pondering time and again. Here is the recent thought.
+Global trends and technology buying research Let&amp;rsquo;s start with some observations of today&amp;rsquo;s high-tech industry.
+From project management&amp;rsquo;s point of view, the Project Management Institute (PMI)&amp;rsquo;s PMBOK® Guide believes there are three global trends that are disrupting traditional business models and transforming products and services:</description>
+    </item>
+    
+  </channel>
+</rss>

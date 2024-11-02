@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Explore Goodreads data: my most read authors | New Light</title>
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+
+
+  
+  
+    
+ 
+  
+  
+  
+  
+  
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/post.min.99e22b22dc15d93511e91aa0bd1fe27f7d5b3a627db378538dad3c4153be3211.css" integrity="sha256-meIrItwV2TUR6RqgvR/if31bOmJ9s3hTja08QVO&#43;MhE="/>
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/custom.min.d32d3d081acf0d58990cc20b1c6533dc91f840042575a778d440c457a924e537.css" integrity="sha256-0y09CBrPDViZDMILHGUz3JH4QAQldad41EDEV6kk5Tc="/>
+  
+  
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    { 
+      "@context": "http://schema.org", 
+      "@type": "WebSite", 
+      "url": "https:\/\/azure562.github.io\/lab\/goodreads-python-data\/",
+      "name": "Explore Goodreads data: my most read authors",
+      "author": {
+        "@type": "Person",
+        "name": ""
+      },
+      "description": ""
+    }
+  
+  </script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9DYLKEL5L2"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-9DYLKEL5L2', { 'anonymize_ip': false });
+}
+</script>
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" id="navigation">
+  <ul class="nav__list">
+    
+    
+      <li>
+        <a  href="/strategy">01: Doc Strategy</a>
+      </li>
+    
+      <li>
+        <a  href="/blog">02: Tech Writing</a>
+      </li>
+    
+      <li>
+        <a  href="/docops">03: DocOps</a>
+      </li>
+    
+      <li>
+        <a  href="/lab">04: Mini lab</a>
+      </li>
+    
+      <li>
+        <a  href="/about">About</a>
+      </li>
+    
+      <li>
+        <a  href="/">Home</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+    
+
+    <div class="flex-wrapper">
+      <div class="post__container">
+        <div class="post">
+          <header class="post__header">
+            <h1 id="post__title">Explore Goodreads data: my most read authors</h1>            
+            <time datetime="2022-01-02 10:13:15 &#43;0100 CET" class="post__date">Jan 2 2022. 4 min read</time> 
+          </header>
+          <article class="post__content">
+              
+<p><img src="/images/pexels-nubia-navarro-(nubikini)-1517355.jpg" alt="header image"></p>
+<p style="text-align: center; font-style: italic; margin-top: 0; font-size: 0.9rem">Photo by <a href="https://www.pexels.com/@nubikini" target="_blank" rel="noreferrer noopener">Nubia Navarro (nubikini)</a> from Pexels</p>
+<p><em>Whether a side project or a hobby, it feels like we are all spending time learning new things outside of working hours&hellip; I&rsquo;m trying to get familiar with Python. One day it dawned on me that maybe I can use my new knowledge with <a href="https://www.goodreads.com/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Goodreads</a>.</em></p>
+<h2 id="get-the-data">Get the data<a class="anchor" href="#get-the-data">#</a></h2>
+<p>First, export the information of books from Goodreads.</p>
+<ol>
+<li>
+<p>Log in to Goodreads, go to <strong>My Books</strong> &gt; <strong>Tools</strong>, and select <strong>Import and Export</strong>.</p>
+</li>
+<li>
+<p>Select <strong>Export Library</strong>.</p>
+</li>
+<li>
+<p>When finished, a link will appear under the export button. Click the link to download the exported library file. The filename is <code>goodreads_library_export.csv</code>.</p>
+</li>
+</ol>
+<h2 id="prepare-the-data">Prepare the data<a class="anchor" href="#prepare-the-data">#</a></h2>
+<p>Next, get all of that data into a Pandas DataFrame.</p>
+<pre><code class="language-python">from matplotlib import pyplot as plt
+import numpy as np
+import pandas as pd
+
+books = pd.read_csv(&quot;goodreads_library_export.csv&quot;)
+</code></pre>
+<p>Some columns/features are not very interesting, let&rsquo;s remove them.</p>
+<pre><code class="language-python">books.drop(columns=[&quot;Book Id&quot;, &quot;Author l-f&quot;, &quot;Additional Authors&quot;, &quot;ISBN&quot;, &quot;ISBN13&quot;, &quot;Bookshelves&quot;, &quot;Bookshelves with positions&quot;, &quot;Read Count&quot;, &quot;Private Notes&quot;, &quot;My Review&quot;, &quot;Spoiler&quot;, &quot;Recommended For&quot;, &quot;Recommended By&quot;, &quot;Owned Copies&quot;, &quot;Original Purchase Location&quot;, &quot;Original Purchase Date&quot;, &quot;Condition&quot;, &quot;Condition Description&quot;, &quot;BCID&quot;], inplace=True)
+</code></pre>
+<h2 id="get-back-the-most-read-authors">Get back the most read authors<a class="anchor" href="#get-back-the-most-read-authors">#</a></h2>
+<p>About three years ago Goodreads decided to take down a feature called <em>Most Read Authors</em> (you can read more about it <a href="https://help.goodreads.com/s/question/0D51H00004BrqVZSAZ/what-happened-to-the-mostread-authors-list" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>here</a>). I&rsquo;m among those who want this feature back. Now that I have (almost) all the data, I do not need to wait for the Goodreads product team to make that happen!</p>
+<p>Books in the Goodreads library have three statuses: <em>Read</em>, <em>Want to read</em>, and <em>Currently reading</em>. I only want to check the books I have finished.</p>
+<pre><code class="language-python"># make a subset of finished books
+books_read = books[(books['Exclusive Shelf'] == 'read')]
+
+# Count the occurences of authors in the dataset, extract the value names (authors) and counts into two lists
+authors_list = books_read['Author'].value_counts().index.tolist()
+authors_count = books_read['Author'].value_counts().values.tolist()
+
+# Get top 10 authors
+top10_authors = authors_list[:10]
+top10_authors_count = authors_count[:10]
+</code></pre>
+<h3 id="horizontal-bar-chart">Horizontal bar chart<a class="anchor" href="#horizontal-bar-chart">#</a></h3>
+<p>If staying with the conventional vertical bar chart, we&rsquo;ll have a chart like below:</p>
+<p><img src="/images/books-by-authors_vertical.png" alt="Conventional bar chart"></p>
+<p>Not very exciting, right?</p>
+<p>A good book about data visualization is <a href="https://www.storytellingwithdata.com/books" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Stroytelling with data</a>. Among the many topics it covers, there is one about <em>choosing an effective visual</em>. It convinced me that I&rsquo;ll be better off with a horizontal bar chart. And I need to declutter (remove noises) the chart as much as possible.</p>
+<p>After a lot of trial and error, copy-paste from <a href="https://stackoverflow.com/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>stackoverflow</a>, and read matplotlib and Python documentation (yeah, we do need to read the documentation!) I got a horizontal bar chart.</p>
+<p><img src="/images/books-by-authors.png" alt="Nice horizontal bar chart"></p>
+<p>Would you like this new one better?</p>
+<p>Here are the tricks.</p>
+<pre><code class="language-python"># Declutter: remove chart borders
+ax.spines['right'].set_visible(False)
+ax.spines['top'].set_visible(False)
+ax.spines['left'].set_visible(False)
+ax.spines['bottom'].set_visible(False)
+
+# Declutter: clean up axies 
+
+# Hide the whole x-axis, including axis ticks, axis tick labels, and axis
+ax.axes.xaxis.set_visible(False)
+# Hide the y-axis ticks but keep tick labels
+ax.tick_params(axis='y', length=0)
+
+# Put number next to each bar. If you want the number to appear at the leftmost end, replave &quot;v-0.5&quot; with &quot;0&quot;
+for i, v in enumerate(y):
+    plt.text(v-0.5, i, &quot;  &quot;+str(v), color='white', va='center', size=11, fontweight='bold')
+</code></pre>
+<h2 id="are-they-really-my-favorite-authors">Are they really my favorite authors?<a class="anchor" href="#are-they-really-my-favorite-authors">#</a></h2>
+<p>Seeing that Jung is atop my list makes me want to admire myself 😉, but why I have so many authors famous for children&rsquo;s books or young adults? A plausible explanation is that I read them for my kid when he was small or when I was young.</p>
+<p>Maybe it makes sense to chart the years in which I read them.</p>
+<p>I guess I need a scatter plot for this purpose. Though it turns out more complicated than I first thought (or more likely it just proves that I still have a long way to go &hellip;). Anyway, let&rsquo;s start working, or charting.</p>
+<h3 id="scatter-plot">Scatter plot<a class="anchor" href="#scatter-plot">#</a></h3>
+<p>Begin with making another subset.</p>
+<pre><code class="language-Python"># Get a subset of the book library with only the top authors
+top10_authors_lib = books_read.loc[books_read['Author'].isin(top10_authors)]
+
+# Order the library
+sorted_lib = top10_authors_lib.sort_values(by=['Date Read'])
+
+# Add a new column
+sorted_lib['Year Read'] = pd.DatetimeIndex(sorted_lib['Date Read']).year
+
+# Remove rows with missing values
+sorted_lib.dropna(inplace=True)
+</code></pre>
+<p>Prepare the canvas and data.</p>
+<pre><code class="language-python"># Prepare the scatterplot
+fig2, ax2 = plt.subplots(figsize=(14,5))
+
+x = sorted_lib['Year Read'].tolist()
+y = sorted_lib['Author'].tolist()
+
+x = [str(item).replace('.0', '') for item in x]
+
+# Set title
+plt.title('Authors read in the year', pad=20, weight='bold', size=14, color='#00635d')
+</code></pre>
+<p>Declutter.</p>
+<pre><code class="language-Python"># Declutter: remove chart borders
+ax2.spines['left'].set_visible(False)
+ax2.spines['right'].set_visible(False)
+ax2.spines['top'].set_visible(False)
+
+ax2.tick_params(axis='y', length=0, labelsize=11)
+</code></pre>
+<p>Show me the chart!</p>
+<pre><code class="language-Python">plt.scatter(x, y, color=&quot;#FF8C00&quot;)
+plt.grid(axis = 'y', color = 'lightgrey', linestyle = '--', linewidth = 0.5)
+
+plt.show()
+</code></pre>
+<p><img src="/images/authors-by-year.png" alt="Authors by year"></p>
+<p>It&rsquo;s reassuring to see my interest in some authors lasts longer than others.</p>
+<h2 id="in-closing">In closing<a class="anchor" href="#in-closing">#</a></h2>
+<p>While trying this small project, I began to have more ideas about questions to which I want to find an aswer. There is so much hidden information in the data.</p>
+<p>If you are interested to see all the detail of my experimentation with Goodreads data, have a look at my <a href="https://github.com/azure562/python/blob/master/goodreads-authors.ipynb" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Github repo</a>. Maybe you can help me to improve it or devise new applications!</p>
+
+
+              
+          </article>
+          
+
+<ul class="tags__list">
+    
+    <li class="tag__item">
+        <a class="tag__link" href="https://azure562.github.io/tags/data-visualization/">data-visualization</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://azure562.github.io/tags/python/">Python</a>
+    </li></ul>
+
+ <div class="pagination">
+  
+
+  
+</div>
+
+          
+          <footer class="post__footer">
+            
+
+
+<div class="social-icons">
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="GitHub"
+        href="https://github.com/azure562"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://azure562.github.io/svg/github.svg')"></div>
+      </a>
+    
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="LinkedIn"
+        href="https://www.linkedin.com/in/qing-sapphire-wang-36775731/"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://azure562.github.io/svg/linkedin.svg')"></div>
+      </a>
+    
+     
+</div>
+
+            <p>© 2023-2024 &nbsp;&nbsp;&nbsp; New Light Docs</p>
+          </footer>
+          </div>
+      </div>
+      
+      <div class="toc-container">
+           <div class="toc-post-title">In this article</div> 
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#get-the-data">Get the data</a></li>
+    <li><a href="#prepare-the-data">Prepare the data</a></li>
+    <li><a href="#get-back-the-most-read-authors">Get back the most read authors</a>
+      <ul>
+        <li><a href="#horizontal-bar-chart">Horizontal bar chart</a></li>
+      </ul>
+    </li>
+    <li><a href="#are-they-really-my-favorite-authors">Are they really my favorite authors?</a>
+      <ul>
+        <li><a href="#scatter-plot">Scatter plot</a></li>
+      </ul>
+    </li>
+    <li><a href="#in-closing">In closing</a></li>
+  </ul>
+</nav>
+      </div>
+      
+    </div>
+    
+
+  </main>
+
+   
+
+  
+  <script src="/js/index.min.301a8b0870381bf76b3b5182e8966d363a0474281183439beb024d8b8228fc66.js" integrity="sha256-MBqLCHA4G/drO1GC6JZtNjoEdCgRg0Ob6wJNi4Io/GY=" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js"></script>
+
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"
+    data-autoloader-path="https://unpkg.com/prismjs@1.20.0/components/"></script>
+
+  
+    <script src="/js/table-of-contents.js"></script>
+  
+
+
+</body>
+
+</html>
