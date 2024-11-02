@@ -93,7 +93,7 @@ googleAnalytics = "G-9DYLKEL5L2"
   identifier = "labs"
   name = "04: Mini lab"
   title = "Lab"
-  url = "/lab"
+  url = "/lab"git pu
 
   [[menu.main]]
   identifier = "scribble"
