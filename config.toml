@@ -2,7 +2,7 @@
 theme = "hugo-theme-codex" 
 
 # Override these settings with your own
-title = "New Light"
+title = "Retold"
 languageCode = "en-us"
 baseURL = "https://azure562.github.io"
 copyright = "© 2023-{year}"
@@ -94,6 +94,12 @@ googleAnalytics = "G-9DYLKEL5L2"
   name = "04: Mini lab"
   title = "Lab"
   url = "/lab"
+
+[[menu.main]]
+identifier = "scribble"
+name = "The Scribble Pit"
+title = "Scribble"
+url = "/scribble"
 
 # [[menu.main]]
 #  identifier = "others"
